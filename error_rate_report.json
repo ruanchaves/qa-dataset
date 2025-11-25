@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-25T14:18:35.754096",
+    "total_rows_in_dataset": 3000,
+    "total_chatbots": 6,
+    "chatbots_analyzed": [
+      "chatgpt",
+      "claude",
+      "claude_dlp",
+      "gemini",
+      "grok",
+      "perplexity"
+    ]
+  },
+  "summary": {
+    "chatbots": [
+      {
+        "chatbot": "gemini",
+        "total_questions": 500,
+        "errors": 444,
+        "correct": 56,
+        "error_rate_percent": 88.8,
+        "accuracy_percent": 11.2
+      },
+      {
+        "chatbot": "claude",
+        "total_questions": 500,
+        "errors": 347,
+        "correct": 153,
+        "error_rate_percent": 69.4,
+        "accuracy_percent": 30.6
+      },
+      {
+        "chatbot": "perplexity",
+        "total_questions": 500,
+        "errors": 331,
+        "correct": 169,
+        "error_rate_percent": 66.2,
+        "accuracy_percent": 33.8
+      },
+      {
+        "chatbot": "grok",
+        "total_questions": 500,
+        "errors": 213,
+        "correct": 287,
+        "error_rate_percent": 42.6,
+        "accuracy_percent": 57.4
+      },
+      {
+        "chatbot": "chatgpt",
+        "total_questions": 500,
+        "errors": 181,
+        "correct": 319,
+        "error_rate_percent": 36.2,
+        "accuracy_percent": 63.8
+      },
+      {
+        "chatbot": "claude_dlp",
+        "total_questions": 500,
+        "errors": 29,
+        "correct": 471,
+        "error_rate_percent": 5.8,
+        "accuracy_percent": 94.2
+      }
+    ],
+    "statistics": {
+      "best_performing": {
+        "chatbot": "claude_dlp",
+        "error_rate_percent": 5.8,
+        "accuracy_percent": 94.2,
+        "total_questions": 500,
+        "errors": 29,
+        "correct": 471
+      },
+      "worst_performing": {
+        "chatbot": "gemini",
+        "error_rate_percent": 88.8,
+        "accuracy_percent": 11.2,
+        "total_questions": 500,
+        "errors": 444,
+        "correct": 56
+      },
+      "average_error_rate_percent": 51.5,
+      "average_accuracy_percent": 48.5,
+      "total_questions_across_all_chatbots": 3000,
+      "total_errors_across_all_chatbots": 1545,
+      "total_correct_across_all_chatbots": 1455
+    }
+  },
+  "error_type_distribution": {
+    "chatgpt": {
+      "Ambiguous Interpretation": 55,
+      "Fiscal vs Calendar Period Confusion": 9,
+      "Non-Answer / Refusal": 8,
+      "Period Shift": 26,
+      "Rounding / Formatting": 83
+    },
+    "claude": {
+      "Ambiguous Interpretation": 71,
+      "Fiscal vs Calendar Period Confusion": 8,
+      "Non-Answer / Refusal": 159,
+      "Period Shift": 19,
+      "Rounding / Formatting": 90
+    },
+    "claude_dlp": {
+      "Ambiguous Interpretation": 5,
+      "Fiscal vs Calendar Period Confusion": 4,
+      "Non-Answer / Refusal": 1,
+      "Period Shift": 1,
+      "Rounding / Formatting": 18
+    },
+    "gemini": {
+      "Ambiguous Interpretation": 352,
+      "Fiscal vs Calendar Period Confusion": 7,
+      "Non-Answer / Refusal": 16,
+      "Period Shift": 21,
+      "Rounding / Formatting": 48
+    },
+    "grok": {
+      "Ambiguous Interpretation": 79,
+      "Fiscal vs Calendar Period Confusion": 6,
+      "Non-Answer / Refusal": 5,
+      "Period Shift": 38,
+      "Rounding / Formatting": 85
+    },
+    "perplexity": {
+      "Ambiguous Interpretation": 177,
+      "Fiscal vs Calendar Period Confusion": 6,
+      "Non-Answer / Refusal": 36,
+      "Period Shift": 25,
+      "Rounding / Formatting": 87
+    }
+  },
+  "error_type_descriptions": {
+    "1": "Fiscal vs Calendar Period Confusion",
+    "2": "Period Shift",
+    "3": "Rounding / Formatting",
+    "4": "Ambiguous Interpretation",
+    "5": "Non-Answer / Refusal"
+  }
+}
