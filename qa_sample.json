@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-25T14:21:54.819539",
+    "total_samples": 50,
+    "total_categories": 25,
+    "samples_per_category": 2,
+    "categories_included": [
+      "Revenue",
+      "Profitability",
+      "Segment Performance",
+      "Operating Expenses",
+      "Guidance",
+      "KPIs",
+      "Segment Revenue",
+      "Operating Metrics",
+      "Profitability Metrics",
+      "Financial Performance",
+      "Cash Flow",
+      "Operational Metrics",
+      "Balance Sheet",
+      "Operating Performance",
+      "Income Statement",
+      "Operations",
+      "Capital Expenditure",
+      "Operations/KPIs",
+      "Product Revenue",
+      "Operating Costs",
+      "Capital Expenditures",
+      "Revenue Breakdown",
+      "Sales Volume",
+      "Geographic Segment Performance",
+      "R&D Expenses"
+    ],
+    "source_file": "train.csv"
+  },
+  "samples": [
+    {
+      "sample_id": 1,
+      "category": "Segment Revenue",
+      "question": "What was Capri Holdings' total Versace brand revenue in fiscal year 2022, expressed in USD millions?",
+      "golden_answer": "Capri Holdings' Versace brand revenue for fiscal year 2022 was $1,088 million."
+    },
+    {
+      "sample_id": 2,
+      "category": "Operating Costs",
+      "question": "What was Sandfire Resources' MATSA implied C1 unit cost in US dollars per pound for Q3 2023?",
+      "golden_answer": "Sandfire Resources' MATSA implied C1 unit cost for Q3 2023 was US$[2.04](https://marketplace.daloopa.com/src/107044297) per pound."
+    },
+    {
+      "sample_id": 3,
+      "category": "Operations",
+      "question": "What was Yara International's total Industrial Solutions deliveries volume in thousand tonnes for fiscal year 2022?",
+      "golden_answer": "Yara International's total Industrial Solutions deliveries for fiscal year 2022 was 7,167 thousand tonnes."
+    },
+    {
+      "sample_id": 4,
+      "category": "Sales Volume",
+      "question": "What was the total number of used vehicle units sold by Camping World Holdings in fiscal year 2023?",
+      "golden_answer": "Camping World Holdings sold 56,823 used vehicle units in fiscal year 2023."
+    },
+    {
+      "sample_id": 5,
+      "category": "Profitability Metrics",
+      "question": "What was Minerva S.A.'s EBITDA margin (in percentage) for Q3 2023?",
+      "golden_answer": "Minerva S.A.'s EBITDA margin for Q3 2023 was [10.1](https://marketplace.daloopa.com/src/83359120) percent."
+    },
+    {
+      "sample_id": 6,
+      "category": "R&D Expenses",
+      "question": "What was the clinical milestone payment amount (in USD millions) that Alumis recorded in their R&D expenses during Q3 2024?",
+      "golden_answer": "The clinical milestone payment recorded in Q3 2024 was $[23](https://marketplace.daloopa.com/src/119437325) million."
+    },
+    {
+      "sample_id": 7,
+      "category": "Operating Performance",
+      "question": "What was Boa Vista Servicos SA's Adjusted EBITDA in Brazilian Reais (thousands) for fiscal year 2022?",
+      "golden_answer": "Boa Vista Servicos SA's Adjusted EBITDA for fiscal year 2022 was 470,165 thousand Brazilian Reais."
+    },
+    {
+      "sample_id": 8,
+      "category": "Balance Sheet",
+      "question": "What was Plaza SA's total assets value (in thousands of Chilean pesos) for the full year 2019?",
+      "golden_answer": "Plaza SA's total assets for 2019FY were 3,383,914,933 thousand Chilean pesos."
+    },
+    {
+      "sample_id": 9,
+      "category": "Capital Expenditure",
+      "question": "What was the capital expenditure for Havells India's Cables segment in fiscal year 2024 in Indian Rupees (Crore)?",
+      "golden_answer": "The capital expenditure for Havells India's Cables segment in fiscal year 2024 was [251.39](https://marketplace.daloopa.com/src/98611528) Crore."
+    },
+    {
+      "sample_id": 10,
+      "category": "Financial Performance",
+      "question": "What was Ichigo Inc's operating profit in Japanese Yen (millions) for Q4 2021?",
+      "golden_answer": "Ichigo Inc's operating profit for Q4 2021 was 793 million Yen."
+    },
+    {
+      "sample_id": 11,
+      "category": "Segment Revenue",
+      "question": "What was Lindsay Corporation's irrigation segment international operating revenue in fiscal year 2023 in thousands of dollars?",
+      "golden_answer": "Lindsay Corporation's irrigation segment international operating revenue in fiscal year 2023 was $276,493 thousand."
+    },
+    {
+      "sample_id": 12,
+      "category": "Segment Performance",
+      "question": "What was Southern Cross Media Group's Broadcast Radio segment EBITDA excluding significant items in fiscal year 2023 in AUD millions?",
+      "golden_answer": "Southern Cross Media Group's Broadcast Radio segment EBITDA excluding significant items was [97.9](https://marketplace.daloopa.com/src/120950739) Million AUD in fiscal year 2023."
+    },
+    {
+      "sample_id": 13,
+      "category": "Product Revenue",
+      "question": "What was Teva's Austedo revenue in North America for Q3 2023 in millions of USD?",
+      "golden_answer": "Teva's Austedo revenue in North America for Q3 2023 was $[339](https://marketplace.daloopa.com/src/83151781) million."
+    },
+    {
+      "sample_id": 14,
+      "category": "Guidance",
+      "question": "What was TPG Telecom's full year 2023 guidance for capital expenditure (cash) excluding spectrum in billions of Australian dollars?",
+      "golden_answer": "TPG Telecom's full year 2023 guidance for capital expenditure (cash) excluding spectrum was [1.05](https://marketplace.daloopa.com/src/127786899) billion Australian dollars."
+    },
+    {
+      "sample_id": 15,
+      "category": "Profitability",
+      "question": "What was Fukuoka Financial Group's net income attributable to owners of the parent for fiscal year 2023 in millions of Japanese yen?",
+      "golden_answer": "Fukuoka Financial Group's net income attributable to owners of the parent for fiscal year 2023 was 61,178 million yen, representing a significant recovery from the previous fiscal year."
+    },
+    {
+      "sample_id": 16,
+      "category": "Operating Expenses",
+      "question": "What were Vertex Pharmaceuticals' GAAP research and development expenses in Q2 2021 in millions of USD?",
+      "golden_answer": "Vertex Pharmaceuticals' GAAP research and development expenses in Q2 2021 were $1,407.090 million."
+    },
+    {
+      "sample_id": 17,
+      "category": "Capital Expenditures",
+      "question": "What was Exxon Mobil's total cash capital expenditures in USD millions for fiscal year 2023?",
+      "golden_answer": "Exxon Mobil's total cash capital expenditures for fiscal year 2023 was $23,352 million."
+    },
+    {
+      "sample_id": 18,
+      "category": "Geographic Segment Performance",
+      "question": "What was Ezaki Glico's operating profit from its China operations in CNY for fiscal year 2023?",
+      "golden_answer": "Ezaki Glico's operating profit from China operations was [143](https://marketplace.daloopa.com/src/109176024) Million CNY for fiscal year 2023."
+    },
+    {
+      "sample_id": 19,
+      "category": "Geographic Segment Performance",
+      "question": "What was Ryohin Keikaku's operating profit for the Asia East/South and Oceania region in fiscal year 2023 (in millions of JPY)?",
+      "golden_answer": "Ryohin Keikaku's operating profit for the Asia East/South and Oceania region in fiscal year 2023 was 4,160 million JPY."
+    },
+    {
+      "sample_id": 20,
+      "category": "Operating Metrics",
+      "question": "What was Indian Oil Corporation's gross refining margin (GRM) in US dollars per barrel for fiscal year 2023?",
+      "golden_answer": "Indian Oil Corporation's gross refining margin (GRM) for fiscal year 2023 was [19.52](https://marketplace.daloopa.com/src/100724009) US dollars per barrel."
+    },
+    {
+      "sample_id": 21,
+      "category": "Guidance",
+      "question": "What was Amkor Technology's annual capital expenditure guidance in US dollars that was communicated during Q3 2023?",
+      "golden_answer": "Amkor Technology's annual capital expenditure guidance communicated in Q3 2023 was approximately $[750](https://marketplace.daloopa.com/src/82460559) million."
+    },
+    {
+      "sample_id": 22,
+      "category": "Profitability Metrics",
+      "question": "What was Yamazaki Baking's return on equity (in percentage) for fiscal year 2023?",
+      "golden_answer": "Yamazaki Baking's return on equity for fiscal year 2023 was [7.9](https://marketplace.daloopa.com/src/137859004) percent."
+    },
+    {
+      "sample_id": 23,
+      "category": "Balance Sheet",
+      "question": "What was Capitec Bank Holdings' total deposits amount in South African Rand (millions) at the end of fiscal year 2023?",
+      "golden_answer": "Capitec Bank Holdings' total deposits at the end of fiscal year 2023 were 144,059 million South African Rand."
+    },
+    {
+      "sample_id": 24,
+      "category": "Operations/KPIs",
+      "question": "What was Resorttrust Inc's spending per visitor at Baycourt properties in Q2 2023, expressed in Japanese Yen?",
+      "golden_answer": "The spending per visitor at Baycourt properties in Q2 2023 was 34,604 Japanese Yen."
+    },
+    {
+      "sample_id": 25,
+      "category": "Operations",
+      "question": "What was the number of LL Flooring stores operating in the expanded showroom format at the end of Q3 2017 (measured in store units)?",
+      "golden_answer": "[154](https://marketplace.daloopa.com/src/9901130) stores"
+    },
+    {
+      "sample_id": 26,
+      "category": "Revenue",
+      "question": "What was Rivian's automotive revenue in Q2 2025, in millions of USD?",
+      "golden_answer": "Rivian's automotive revenue in Q2 2025 was $[927](https://marketplace.daloopa.com/src/137255497) million."
+    },
+    {
+      "sample_id": 27,
+      "category": "Sales Volume",
+      "question": "What was Blue Bird Corp's total unit sales (in number of buses) for fiscal year 2023?",
+      "golden_answer": "Blue Bird Corp's total unit sales for fiscal year 2023 was 8,514 buses."
+    },
+    {
+      "sample_id": 28,
+      "category": "Operating Performance",
+      "question": "What was Kilroy Realty Corp's same store cash net operating income in thousands of USD for the full year 2023?",
+      "golden_answer": "Kilroy Realty Corp's same store cash net operating income for the full year 2023 was $691,351 thousand."
+    },
+    {
+      "sample_id": 29,
+      "category": "Capital Expenditure",
+      "question": "What was Hon Hai Precision Industry's total acquisition of property, plant and equipment in TWD thousands for fiscal year 2020?",
+      "golden_answer": "Hon Hai's total acquisition of property, plant and equipment for fiscal year 2020 was an outflow of 65,500,041 thousand TWD."
+    },
+    {
+      "sample_id": 30,
+      "category": "Segment Performance",
+      "question": "What was NCR Voyix Corporation's retail hardware gross profit in USD millions for Q1 2025?",
+      "golden_answer": "NCR Voyix Corporation's retail hardware gross profit was $[9](https://marketplace.daloopa.com/src/126136811) million in Q1 2025."
+    },
+    {
+      "sample_id": 31,
+      "category": "Income Statement",
+      "question": "What was State Street Corp's total interest expense in US dollars for the full year 2023?",
+      "golden_answer": "State Street Corp's total interest expense for the full year 2023 was $6,421 million."
+    },
+    {
+      "sample_id": 32,
+      "category": "KPIs",
+      "question": "What was Pure Storage's subscription annual recurring revenue (ARR) in Q2 2023 in US dollars?",
+      "golden_answer": "Pure Storage's subscription annual recurring revenue (ARR) in Q2 2023 was $1.2 billion."
+    },
+    {
+      "sample_id": 33,
+      "category": "Product Revenue",
+      "question": "What was Eli Lilly's Trulicity revenue in Q3 2020 in USD millions?",
+      "golden_answer": "Eli Lilly's Trulicity revenue in Q3 2020 was [1106.6](https://marketplace.daloopa.com/src/37997722) Million USD."
+    },
+    {
+      "sample_id": 34,
+      "category": "Revenue",
+      "question": "What was Shockwave Medical's coronary product revenue in US dollars for fiscal year 2023?",
+      "golden_answer": "Shockwave Medical's coronary product revenue for fiscal year 2023 was $528,845 thousand (or $528.845 million)."
+    },
+    {
+      "sample_id": 35,
+      "category": "Cash Flow",
+      "question": "What was Nitto Boseki's net cash provided by operating activities for fiscal year 2021 in Japanese Yen?",
+      "golden_answer": "Nitto Boseki's net cash provided by operating activities for fiscal year 2021 was [6965](https://marketplace.daloopa.com/src/120550955) Million Japanese Yen."
+    },
+    {
+      "sample_id": 36,
+      "category": "Profitability",
+      "question": "What was Jeronimo Martins' EBITDA excluding IFRS 16 for Q2 2023 in EUR millions?",
+      "golden_answer": "Jeronimo Martins' EBITDA excluding IFRS 16 for Q2 2023 was [431](https://marketplace.daloopa.com/src/98742317) Million EUR."
+    },
+    {
+      "sample_id": 37,
+      "category": "Revenue Breakdown",
+      "question": "What was Dr. Agarwal's Health Care Ltd's income from surgeries in fiscal year 2022 in INR millions?",
+      "golden_answer": "Dr. Agarwal's Health Care Ltd's income from surgeries in fiscal year 2022 was INR [4012.796](https://marketplace.daloopa.com/src/132262824) million."
+    },
+    {
+      "sample_id": 38,
+      "category": "Operations/KPIs",
+      "question": "What was Rheinmetall AG's total order backlog in EUR millions at the end of fiscal year 2023?",
+      "golden_answer": "Rheinmetall AG's total order backlog at the end of fiscal year 2023 was 21,977 million EUR."
+    },
+    {
+      "sample_id": 39,
+      "category": "Operational Metrics",
+      "question": "What was Sunrun's solar energy capacity installed in megawatts during Q4 2022?",
+      "golden_answer": "Sunrun installed [275.4](https://marketplace.daloopa.com/src/68026621) megawatts of solar energy capacity in Q4 2022."
+    },
+    {
+      "sample_id": 40,
+      "category": "Capital Expenditures",
+      "question": "What was Matador Resources' total drilling, completion and equipping capital expenditure in US dollars for fiscal year 2023?",
+      "golden_answer": "Matador Resources' drilling, completion and equipping capital expenditure for fiscal year 2023 was $1,192.8 million."
+    },
+    {
+      "sample_id": 41,
+      "category": "KPIs",
+      "question": "What was Jack in the Box's franchise restaurant average unit volume (AUV) in US dollars for fiscal year 2023?",
+      "golden_answer": "Jack in the Box's franchise restaurant average unit volume for fiscal year 2023 was $1,968."
+    },
+    {
+      "sample_id": 42,
+      "category": "Operational Metrics",
+      "question": "What was Ultratech Cement's installed cement production capacity in India for fiscal year 2022 in Million Tons Per Annum (MTPA)?",
+      "golden_answer": "Ultratech Cement's installed capacity in India for fiscal year 2022 was [114.55](https://marketplace.daloopa.com/src/104178604) Million MTPA."
+    },
+    {
+      "sample_id": 43,
+      "category": "Financial Performance",
+      "question": "What was JAC Recruitment's (2124.T) full-year operating income for fiscal year 2022 in Million Yen?",
+      "golden_answer": "JAC Recruitment's operating income for fiscal year 2022 was [7044](https://marketplace.daloopa.com/src/112751881) Million Yen."
+    },
+    {
+      "sample_id": 44,
+      "category": "R&D Expenses",
+      "question": "What were Centessa Pharmaceuticals' OX2R program research and development expenses in thousands of USD for Q3 2024?",
+      "golden_answer": "Centessa Pharmaceuticals' OX2R program research and development expenses were $9.8 millions in Q3 2024."
+    },
+    {
+      "sample_id": 45,
+      "category": "Cash Flow",
+      "question": "What was Nexteer Automotive Group Limited's free cash flow in USD millions for fiscal year 2021?",
+      "golden_answer": "Nexteer Automotive Group Limited's free cash flow for fiscal year [2](https://marketplace.daloopa.com/src/58086142)021 was 2 Million USD."
+    },
+    {
+      "sample_id": 46,
+      "category": "Operating Expenses",
+      "question": "What were Compass Pathways' total research and development expenses in Q3 2023, expressed in USD thousands?",
+      "golden_answer": "Compass Pathways' total research and development expenses in Q3 2023 were 21,526 thousand USD."
+    },
+    {
+      "sample_id": 47,
+      "category": "Revenue Breakdown",
+      "question": "What was TravelSky Technology Ltd's aviation information technology service revenue in RMB for fiscal year 2022?",
+      "golden_answer": "TravelSky Technology Ltd's aviation information technology service revenue for fiscal year 2022 was RMB [1,546,646,054.41](https://marketplace.daloopa.com/src/75563073)."
+    },
+    {
+      "sample_id": 48,
+      "category": "Operating Metrics",
+      "question": "What was Pacific Basin Shipping's Handysize Time-Charter Equivalent (TCE) daily rate in US dollars per day for Q2 2022?",
+      "golden_answer": "Pacific Basin Shipping's Handysize TCE daily rate for Q2 2022 was $26,370 per day."
+    },
+    {
+      "sample_id": 49,
+      "category": "Income Statement",
+      "question": "What was Northpointe Bancshares' net interest income in thousands of US dollars for fiscal year 2022?",
+      "golden_answer": "Northpointe Bancshares' net interest income for fiscal year 2022 was $99,437 thousand."
+    },
+    {
+      "sample_id": 50,
+      "category": "Operating Costs",
+      "question": "What was JetBlue's average fuel cost per gallon (in US dollars) in Q2 2022?",
+      "golden_answer": "JetBlue's average fuel cost per gallon in Q2 2022 was $[4.24](https://marketplace.daloopa.com/src/59002759)."
+    }
+  ]
+}
